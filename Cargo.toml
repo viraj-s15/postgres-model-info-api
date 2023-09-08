@@ -8,5 +8,5 @@ authors = ["Viraj Shah <viraj.v.shah03@gmail.com>"]
 actix-rt = "2.9.0"
 actix-web = "4.4.0"
 listenfd = "1.0.1"
-serde = "1.0.188"
+serde = {version = "1.0.188",features=["derive"]}
 serde_json = "1.0.105"
